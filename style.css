@@ -15,6 +15,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     gap: 60px;
+    
 }
 input{
     outline: 0;
@@ -35,7 +36,7 @@ input{
     background-color: grey;
     color:rgb(0, 0, 0);    
     width: 100%;
-    border: 0;
+    border: solid;
     padding: 10%;
     font-size: 15px;
     -webkit-transition: all 0.3 ease;
@@ -55,4 +56,5 @@ input{
     padding: 45px;
     text-align: center;
     box-shadow: 0 5 10px 0 rgba(0, 0, 0, 0.2) 0 5px 5px 0 rgba(0, 0, 0, 0.2);
+    border: solid;
 }
